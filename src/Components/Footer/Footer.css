@@ -1,0 +1,44 @@
+.footer_heading h3 {
+  margin-bottom: 15px;
+  color: #30fbef;
+}
+
+.logo_addr,
+.about,
+.links {
+  color: #30fbef;
+}
+
+.links ul li {
+  margin-top: 5px;
+}
+
+.social_links ul li {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #e5e5e5e5;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 15px;
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #e5e5e5e5;
+}

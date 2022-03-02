@@ -1,0 +1,36 @@
+.banner_head {
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 110%;
+}
+.banner-p {
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.primary-btn {
+  padding: 12px 35px;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  margin-top: 40px;
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  .bn-tp {
+    margin-top: 10px !important;
+  }
+  .banner_head {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+.dataStorage {
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.db-head {
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+}
+
+.db_p {
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+@media screen and (max-width: 576px) {
+  .db-head {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

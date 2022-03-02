@@ -1,0 +1,117 @@
+.testi_bg {
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 40px;
+  padding: 25px;
+}
+
+.img_part img {
+  width: 90px;
+  height: 90px;
+}
+
+.heading {
+  display: flex;
+}
+
+.rating ul li {
+  display: inline-block;
+}
+
+.rating ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+.name_title h4 {
+  font-family: "Mitr", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.name_title p {
+  font-family: "Mitr", sans-serif;
+  color: #9c69e2;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.des p {
+  font-family: "Mitr", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.newswiper .swiper-wrapper {
+  height: 305px !important;
+}
+
+@media Screen and (max-width: 576px) {
+  .img_part {
+    text-align: center;
+  }
+
+  .des p {
+    font-size: 14px !important;
+  }
+
+  .newswiper .swiper-wrapper {
+    height: 355px !important;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    left: -15px !important;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .newswiper .swiper-wrapper {
+    height: 400px !important;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    left: -15px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .newswiper .swiper-wrapper {
+    height: 450px !important;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    left: -15px !important;
+  }
+  .swiper {
+    margin-right: -50vw !important;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .newswiper .swiper-wrapper {
+    height: 450px !important;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    left: -15px !important;
+  }
+  .swiper {
+    margin-right: -50vw !important;
+  }
+}
